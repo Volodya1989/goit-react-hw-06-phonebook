@@ -20,6 +20,10 @@ export const Text = styled.p`
   width: 50%;
   font-weight: 700;
   border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 `;
 export const Span = styled.span`
   display: flex;

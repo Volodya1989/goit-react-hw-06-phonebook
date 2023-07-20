@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import ContactListItem from "components/ContactListItem";
 import { List, Text, Span } from "./ContactList.styled";
-import { CiFaceFrown } from "react-icons/ci";
+import { FcContacts } from "react-icons/fc";
 
 const ContactList = ({ filteredContacts, onDelete }) => {
   return (
@@ -20,7 +20,8 @@ const ContactList = ({ filteredContacts, onDelete }) => {
       ) : (
         <Text>
           <Span>
-            <CiFaceFrown />
+            {/* <CiFaceFrown /> */}
+            <FcContacts />
           </Span>
           No contacts listed
         </Text>
