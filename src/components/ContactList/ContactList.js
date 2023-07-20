@@ -20,7 +20,6 @@ const ContactList = ({ filteredContacts, onDelete }) => {
       ) : (
         <Text>
           <Span>
-            {/* <CiFaceFrown /> */}
             <FcContacts />
           </Span>
           No contacts listed
