@@ -6,7 +6,6 @@ import { useSelector } from "react-redux/es/hooks/useSelector";
 
 const Filter = () => {
   const filter = useSelector(getFilter);
-  console.log("filter inside Filter input", filter);
   const dispatch = useDispatch();
   const changeFilter = (e) => {
     dispatch(setFilter(e.currentTarget.value));
