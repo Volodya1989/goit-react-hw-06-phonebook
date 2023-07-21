@@ -3,11 +3,11 @@ import storage from "redux-persist/lib/storage";
 import { persistReducer } from "redux-persist";
 import Notiflix from "notiflix";
 
-// const contactsInitialState = [];
+const contactsInitialState = [];
 
 const contactsSlice = createSlice({
   name: "contacts",
-  initialState: [[]],
+  initialState: [contactsInitialState],
   reducers: {
     addContact: {
       reducer(state, action) {
